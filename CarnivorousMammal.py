@@ -1,5 +1,11 @@
 class CarnivorousMammal:
+    """Classe base per i mammiferi carnivori."""
 
+    descrizione =("MAMMIFERI CARNIVORI:\tAnimali mammiferi che si nutrono principalmente di carne"+\
+                                    "\n\te possiedono caratteristiche fisiche e comportamentali"+\
+                                    "\n\tad esempio artigli affilati, denti canini sviluppati e"+\
+                                    "\n\tistinti predatori.")
+    
     def __init__(self,age,life,personality,fur_type,color,race):
         self.__age = age
         self.__life = life
@@ -45,6 +51,13 @@ class CarnivorousMammal:
                 f"Età:{self.__age}\n"
                 f"Colore:{self.__color}\n"
                 f"Vita:{self.__life}\n")
+    
+    def print_legenda(self):
+        print(CarnivorousMammal.descrizione)
+    
+    def comunicate(self):
+        raise NotImplementedError("Metodo 'comunicate' non implementato nella sottoclasse.")
+    
     
 
 
