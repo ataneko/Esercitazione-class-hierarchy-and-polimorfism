@@ -27,3 +27,6 @@ class Canide(CarnivorousMammal):
     
     def print_legenda(self):
         print(Canide.descrizione)
+
+    def comunicate(self):
+        print("Il canide ulula")

@@ -27,3 +27,6 @@ class Felino(CarnivorousMammal):
     
     def print_legenda(self):
         print(Felino.descrizione)
+
+    def comunicate(self):
+        print("Il felino ruggisce")

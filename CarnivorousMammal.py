@@ -56,7 +56,7 @@ class CarnivorousMammal:
         print(CarnivorousMammal.descrizione)
     
     def comunicate(self):
-        raise NotImplementedError("Metodo 'comunicate' non implementato nella sottoclasse.")
+        print("Non e possibile stabilire un suono generico per i mammiferi carnivori")
     
     
 
