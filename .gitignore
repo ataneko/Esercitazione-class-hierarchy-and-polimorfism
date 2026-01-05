@@ -1,0 +1,17 @@
+#simple gitignore
+_pychache_/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+*.egg-info/
+dist/
+build/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
